@@ -28,11 +28,9 @@ public class Exercicio_JogoAdivinha {
 		if (numero == numSorteio) {
 			System.out.println("\nParabéns!!\nO número escolhido por você foi: " + numero+ " e o número sorteado foi: " + numSorteio);
 
-		}
-        else{
+		} else{
 			System.out.println("\nNão foi dessa vez!!\nSuas tentativas acabaram e o número sorteado foi: "+ numSorteio);
-
-        }
+		}
 		
 		S.close();
 	}
